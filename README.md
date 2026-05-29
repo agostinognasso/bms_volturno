@@ -106,7 +106,7 @@ The raw `.xlsx` files are **not** in this repository. Download them from Zenodo 
 source("download_data.R")
 ```
 
-This fetches both campaign files into `Analysis/Data/`. If the DOI placeholder in `R/00_data_config.R` has not yet been updated (i.e. `ZENODO_DOI` still reads `"10.5281/zenodo.XXXXXXX"`), the script will print instructions for a manual download.
+This fetches both campaign files into `Analysis/Data/`. If the DOI placeholder in `R/00_data_config.R` has not yet been updated (i.e. `ZENODO_DOI` still reads `"10.5281/zenodo.20447565"`), the script will print instructions for a manual download.
 
 ### Main analysis pipeline
 
@@ -182,7 +182,7 @@ All models are implemented in Stan (`Stan/`) using the exponential (Ornstein–U
 
 The raw CTD profiles are **not** hosted in this repository. They are archived on Zenodo under the SAL.WE. (SAline WEdge intrusion) project (CNR):
 
-> **Zenodo DOI:** [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX) *(DOI will be activated upon dataset publication)*
+> **Zenodo DOI:** [10.5281/zenodo.20447565](https://doi.org/10.5281/zenodo.20447565) *(DOI will be activated upon dataset publication)*
 
 Two Excel files are provided in the Zenodo record:
 
@@ -196,7 +196,7 @@ Each file contains one row per CTD reading with columns for depth (m), temperatu
 **To update the DOI** once the Zenodo record is live, edit the single line in `R/00_data_config.R`:
 
 ```r
-ZENODO_DOI <- "10.5281/zenodo.XXXXXXX"   # replace with actual DOI
+ZENODO_DOI <- "10.5281/zenodo.20447565"   # replace with actual DOI
 ```
 
 Then run `download_data.R` to fetch the files automatically.
