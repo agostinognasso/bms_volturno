@@ -10,7 +10,7 @@
 ## ─────────────────────────────────────────────────────────────────────────────
 
 ## Zenodo DOI — update this when the dataset record is published
-ZENODO_DOI <- "10.5281/zenodo.XXXXXXX"
+ZENODO_DOI <- "10.5281/zenodo.20447565"
 ZENODO_URL <- paste0("https://doi.org/", ZENODO_DOI)
 
 ## Canonical file names (do not change; must match the Zenodo deposit)
