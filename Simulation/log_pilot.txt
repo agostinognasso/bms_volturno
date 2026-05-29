@@ -1,0 +1,4 @@
+RUN tag=pilot  R=2  scen=S1_jan+S3_nogp  chains=2 iter=500 warmup=250
+[pilot] scen=S1_jan rep=1/2 done (3.0 min elapsed)
+[pilot] scen=S1_jan rep=2/2 done (5.8 min elapsed)
+[pilot] scen=S3_nogp rep=1/2 done (9.2 min elapsed)

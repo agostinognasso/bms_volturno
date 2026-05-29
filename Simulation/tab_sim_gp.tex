@@ -1,0 +1,16 @@
+\begin{table}[h!]
+  \caption{Simulation study: recovery of the GP hyperparameters by
+           $\mathrm{M_{full}}$ (posterior-median averaged over replicates).}
+  \label{tab:sim_gp}
+  \centering
+  \begin{tabular}{lcccc}
+    \toprule
+    Scenario & $\sigma_u$ true & $\hat{\sigma}_u$ & $\ell$ true & $\hat{\ell}$ \\
+    \midrule
+    S1 (Jan-like, $\sigma_u\!\approx\!0.02$) & 0.024 & 0.025 & 0.24 & 0.21 \\
+    S2 (Jul-like, $\sigma_u\!\approx\!0.52$) & 0.522 & 0.441 & 0.29 & 0.23 \\
+    S3 ($\sigma_u\!=\!0$) & 0.000 & 0.015 & 0.24 & 0.20 \\
+    S4 (misspecified) & 0.522 & 0.401 & 0.29 & 0.26 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

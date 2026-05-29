@@ -1,0 +1,30 @@
+\begin{table}[h!]
+  \caption{Simulation study: MCMC diagnostics (median over replicates).}
+  \label{tab:sim_diag}
+  \centering
+  \begin{tabular}{llccc}
+    \toprule
+    Scenario & Model & $\hat{R}_{\max}$ & $n_{\mathrm{eff,min}}$ & Div \\
+    \midrule
+    S1 (Jan-like, $\sigma_u\!\approx\!0.02$) & $\mathrm{M_{full}}$ & 1.080 & 58 & 17.4 \\
+     & $\mathrm{M_{noEIV}}$ & 1.004 & 1076 & 0.0 \\
+     & $\mathrm{M_{noGP}}$ & 1.140 & 29 & 6.3 \\
+     & $\mathrm{M_{base}}$ & 1.005 & 858 & 0.0 \\
+    \addlinespace
+    S2 (Jul-like, $\sigma_u\!\approx\!0.52$) & $\mathrm{M_{full}}$ & 1.015 & 321 & 33.6 \\
+     & $\mathrm{M_{noEIV}}$ & 1.003 & 1117 & 0.3 \\
+     & $\mathrm{M_{noGP}}$ & 1.076 & 62 & 0.7 \\
+     & $\mathrm{M_{base}}$ & 1.011 & 394 & 0.0 \\
+    \addlinespace
+    S3 ($\sigma_u\!=\!0$) & $\mathrm{M_{full}}$ & 1.082 & 56 & 15.2 \\
+     & $\mathrm{M_{noEIV}}$ & 1.004 & 1049 & 0.0 \\
+     & $\mathrm{M_{noGP}}$ & 1.161 & 26 & 0.5 \\
+     & $\mathrm{M_{base}}$ & 1.005 & 852 & 0.0 \\
+    \addlinespace
+    S4 (misspecified) & $\mathrm{M_{full}}$ & 1.016 & 325 & 36.5 \\
+     & $\mathrm{M_{noEIV}}$ & 1.003 & 1071 & 0.4 \\
+     & $\mathrm{M_{noGP}}$ & 1.069 & 69 & 0.2 \\
+     & $\mathrm{M_{base}}$ & 1.011 & 379 & 0.0 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

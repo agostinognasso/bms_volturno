@@ -1,0 +1,4 @@
+RUN tag=full  R=200  scen=S1_jan+S2_jul+S4_miss+S3_nogp  chains=4 iter=1500 warmup=750
+recompiling to avoid crashing R session
+recompiling to avoid crashing R session
+recompiling to avoid crashing R session

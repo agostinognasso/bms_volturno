@@ -1,0 +1,55 @@
+\begin{table}[h!]
+  \caption{Simulation study: recovery of the two identified tracer
+           coefficients under each scenario. Truth calibrated on the real
+           $\mathrm{M_{full}}$ posteriors. Bias and RMSE on the standardised
+           scale; Cov.\ is empirical coverage of the nominal 95\,\% credible
+           interval; SR is the sign-reversal frequency.}
+  \label{tab:sim_tracers}
+  \centering
+  \small
+  \begin{tabular}{lllrrrr}
+    \toprule
+    Scenario & Coef. & Model & Bias & RMSE & Cov. & SR \\
+    \midrule
+    S1 (Jan-like, $\sigma_u\!\approx\!0.02$) & Temp. & $\mathrm{M_{full}}$ & -0.032 & 0.076 & 0.96 & 0.00 \\
+     &  & $\mathrm{M_{noEIV}}$ & -0.036 & 0.096 & 0.82 & 0.00 \\
+     &  & $\mathrm{M_{noGP}}$ & -0.027 & 0.085 & 0.93 & 0.00 \\
+     &  & $\mathrm{M_{base}}$ & -0.042 & 0.118 & 0.12 & 0.00 \\
+    \addlinespace
+    S1 (Jan-like, $\sigma_u\!\approx\!0.02$) & O$_2$ & $\mathrm{M_{full}}$ & -0.023 & 0.068 & 0.95 & 0.00 \\
+     &  & $\mathrm{M_{noEIV}}$ & -0.020 & 0.089 & 0.81 & 0.00 \\
+     &  & $\mathrm{M_{noGP}}$ & -0.021 & 0.076 & 0.94 & 0.00 \\
+     &  & $\mathrm{M_{base}}$ & -0.015 & 0.107 & 0.06 & 0.00 \\
+    \addlinespace
+    S2 (Jul-like, $\sigma_u\!\approx\!0.52$) & Temp. & $\mathrm{M_{full}}$ & -0.151 & 0.204 & 0.95 & 0.00 \\
+     &  & $\mathrm{M_{noEIV}}$ & -0.139 & 0.203 & 0.82 & 0.00 \\
+     &  & $\mathrm{M_{noGP}}$ & -0.158 & 0.261 & 0.85 & 0.04 \\
+     &  & $\mathrm{M_{base}}$ & 0.024 & 1.369 & 0.02 & 0.24 \\
+    \addlinespace
+    S2 (Jul-like, $\sigma_u\!\approx\!0.52$) & O$_2$ & $\mathrm{M_{full}}$ & 0.108 & 0.181 & 0.98 & 0.07 \\
+     &  & $\mathrm{M_{noEIV}}$ & 0.109 & 0.196 & 0.89 & 0.08 \\
+     &  & $\mathrm{M_{noGP}}$ & 0.103 & 0.248 & 0.91 & 0.16 \\
+     &  & $\mathrm{M_{base}}$ & 0.268 & 1.776 & 0.02 & 0.45 \\
+    \addlinespace
+    S3 ($\sigma_u\!=\!0$) & Temp. & $\mathrm{M_{full}}$ & -0.038 & 0.071 & 0.95 & 0.00 \\
+     &  & $\mathrm{M_{noEIV}}$ & -0.029 & 0.093 & 0.81 & 0.00 \\
+     &  & $\mathrm{M_{noGP}}$ & -0.039 & 0.073 & 0.94 & 0.00 \\
+     &  & $\mathrm{M_{base}}$ & -0.044 & 0.105 & 0.04 & 0.00 \\
+    \addlinespace
+    S3 ($\sigma_u\!=\!0$) & O$_2$ & $\mathrm{M_{full}}$ & -0.032 & 0.066 & 0.95 & 0.00 \\
+     &  & $\mathrm{M_{noEIV}}$ & -0.019 & 0.091 & 0.84 & 0.00 \\
+     &  & $\mathrm{M_{noGP}}$ & -0.032 & 0.067 & 0.95 & 0.00 \\
+     &  & $\mathrm{M_{base}}$ & -0.017 & 0.091 & 0.06 & 0.00 \\
+    \addlinespace
+    S4 (misspecified) & Temp. & $\mathrm{M_{full}}$ & -0.126 & 0.188 & 0.95 & 0.00 \\
+     &  & $\mathrm{M_{noEIV}}$ & -0.126 & 0.208 & 0.75 & 0.00 \\
+     &  & $\mathrm{M_{noGP}}$ & -0.131 & 0.261 & 0.89 & 0.02 \\
+     &  & $\mathrm{M_{base}}$ & -0.011 & 1.999 & 0.04 & 0.25 \\
+    \addlinespace
+    S4 (misspecified) & O$_2$ & $\mathrm{M_{full}}$ & 0.084 & 0.152 & 0.98 & 0.03 \\
+     &  & $\mathrm{M_{noEIV}}$ & 0.093 & 0.183 & 0.89 & 0.09 \\
+     &  & $\mathrm{M_{noGP}}$ & 0.054 & 0.197 & 0.94 & 0.07 \\
+     &  & $\mathrm{M_{base}}$ & -0.056 & 2.230 & 0.03 & 0.38 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
